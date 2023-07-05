@@ -1,0 +1,12 @@
+-
+  title: patch data for test_put_post
+  request:
+    method: patch
+    url: https://jsonplaceholder.typicode.com/posts/
+    data:
+      title: 'patch01'
+    headers:
+      Accept: application/json
+      charset: UTF-8
+
+  validate: None

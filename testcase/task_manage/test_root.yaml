@@ -1,0 +1,16 @@
+title: get_root
+requests: #request parameter
+  method: get
+  url: https://todo.pixegami.io/
+
+respond:
+  status_code: 200
+
+#extract:
+#  code: [status_code,(.*),0]
+
+#validate: #assert
+#  equals:
+#    status assert:
+#      -200
+#      -${code}

@@ -1,0 +1,15 @@
+-
+  title: put data for test_put_post
+  request:
+    method: put
+    url: https://jsonplaceholder.typicode.com/posts/
+    data:
+      id: 2
+      title: 'put01'
+      body: 'put01'
+      userId: 1
+    headers:
+      Accept: application/json
+      charset: UTF-8
+
+  validate: None

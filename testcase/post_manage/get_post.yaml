@@ -1,0 +1,19 @@
+-
+  title: get data for test_get_post
+  request:
+    method: get
+    url: http://jsonplaceholder.typicode.com/posts
+    params:
+      id: 1
+    headers: None
+  validate: None
+
+-
+  title: get data for test_get_post
+  request:
+    method: get
+    url: http://jsonplaceholder.typicode.com/posts
+    params:
+      id: 2
+    headers: None
+  validate: None

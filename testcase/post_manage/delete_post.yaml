@@ -1,0 +1,10 @@
+-
+  title: delete data for test_put_post
+  request:
+    method: delete
+    url: https://jsonplaceholder.typicode.com/posts/
+
+  validate: None #接口验证
+    #- eq：
+        #status：
+              #status_code:200
